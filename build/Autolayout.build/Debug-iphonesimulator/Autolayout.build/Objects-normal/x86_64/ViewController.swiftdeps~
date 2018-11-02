@@ -5,20 +5,23 @@ provides-nominal:
 - "10Autolayout14ViewControllerC"
 provides-member:
 - ["10Autolayout14ViewControllerC", ""]
+- ["So7UIColorC", ""]
+- ["So7UIColorC", "mainColour"]
 provides-dynamic-lookup:
 - "viewDidLoad"
 depends-top-level:
+- "/"
 - !private "Array"
 - "AssignmentPrecedence"
 - !private "BooleanLiteralType"
-- !private "FloatLiteralType"
-- !private "IntegerLiteralType"
+- "FloatLiteralType"
+- "IntegerLiteralType"
 - !private "NSAttributedString"
 - !private "NSLayoutConstraint"
 - !private "NSMutableAttributedString"
 - !private "StringLiteralType"
 - "UIButton"
-- !private "UIColor"
+- "UIColor"
 - !private "UIFont"
 - !private "UIImage"
 - "UIImageView"
@@ -70,7 +73,7 @@ depends-member:
 - !private ["s7CVarArgP", "NSLayoutConstraint"]
 - !private ["s7CVarArgP", "NSMutableAttributedString"]
 - ["s7CVarArgP", "UIButton"]
-- !private ["s7CVarArgP", "UIColor"]
+- ["s7CVarArgP", "UIColor"]
 - !private ["s7CVarArgP", "UIFont"]
 - !private ["s7CVarArgP", "UIImage"]
 - ["s7CVarArgP", "UIImageView"]
@@ -101,7 +104,6 @@ depends-member:
 - !private ["s7CVarArgP", "distribution"]
 - !private ["s7CVarArgP", "font"]
 - !private ["s7CVarArgP", "gray"]
-- !private ["s7CVarArgP", "green"]
 - !private ["s7CVarArgP", "heightAnchor"]
 - !private ["s7CVarArgP", "image"]
 - !private ["s7CVarArgP", "imageView"]
@@ -113,6 +115,7 @@ depends-member:
 - !private ["s7CVarArgP", "label"]
 - !private ["s7CVarArgP", "layer"]
 - !private ["s7CVarArgP", "leadingAnchor"]
+- !private ["s7CVarArgP", "mainColour"]
 - !private ["s7CVarArgP", "nextButton"]
 - !private ["s7CVarArgP", "numberOfPages"]
 - !private ["s7CVarArgP", "pageControl"]
@@ -143,7 +146,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "NSLayoutConstraint"]
 - !private ["s28CustomDebugStringConvertibleP", "NSMutableAttributedString"]
 - ["s28CustomDebugStringConvertibleP", "UIButton"]
-- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- ["s28CustomDebugStringConvertibleP", "UIColor"]
 - !private ["s28CustomDebugStringConvertibleP", "UIFont"]
 - !private ["s28CustomDebugStringConvertibleP", "UIImage"]
 - ["s28CustomDebugStringConvertibleP", "UIImageView"]
@@ -174,7 +177,6 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "distribution"]
 - !private ["s28CustomDebugStringConvertibleP", "font"]
 - !private ["s28CustomDebugStringConvertibleP", "gray"]
-- !private ["s28CustomDebugStringConvertibleP", "green"]
 - !private ["s28CustomDebugStringConvertibleP", "heightAnchor"]
 - !private ["s28CustomDebugStringConvertibleP", "image"]
 - !private ["s28CustomDebugStringConvertibleP", "imageView"]
@@ -186,6 +188,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "label"]
 - !private ["s28CustomDebugStringConvertibleP", "layer"]
 - !private ["s28CustomDebugStringConvertibleP", "leadingAnchor"]
+- !private ["s28CustomDebugStringConvertibleP", "mainColour"]
 - !private ["s28CustomDebugStringConvertibleP", "nextButton"]
 - !private ["s28CustomDebugStringConvertibleP", "numberOfPages"]
 - !private ["s28CustomDebugStringConvertibleP", "pageControl"]
@@ -213,11 +216,11 @@ depends-member:
 - !private ["s17CustomReflectableP", "blue"]
 - !private ["s17CustomReflectableP", "bottomAnchor"]
 - !private ["s17CustomReflectableP", "clear"]
-- !private ["s17CustomReflectableP", "green"]
 - !private ["s17CustomReflectableP", "heightAnchor"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "init"]
 - !private ["s17CustomReflectableP", "leadingAnchor"]
+- !private ["s17CustomReflectableP", "mainColour"]
 - !private ["s17CustomReflectableP", "red"]
 - !private ["s17CustomReflectableP", "safeAreaLayoutGuide"]
 - !private ["s17CustomReflectableP", "topAnchor"]
@@ -226,7 +229,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "NSLayoutConstraint"]
 - !private ["s23CustomStringConvertibleP", "NSMutableAttributedString"]
 - ["s23CustomStringConvertibleP", "UIButton"]
-- !private ["s23CustomStringConvertibleP", "UIColor"]
+- ["s23CustomStringConvertibleP", "UIColor"]
 - !private ["s23CustomStringConvertibleP", "UIFont"]
 - !private ["s23CustomStringConvertibleP", "UIImage"]
 - ["s23CustomStringConvertibleP", "UIImageView"]
@@ -257,7 +260,6 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "distribution"]
 - !private ["s23CustomStringConvertibleP", "font"]
 - !private ["s23CustomStringConvertibleP", "gray"]
-- !private ["s23CustomStringConvertibleP", "green"]
 - !private ["s23CustomStringConvertibleP", "heightAnchor"]
 - !private ["s23CustomStringConvertibleP", "image"]
 - !private ["s23CustomStringConvertibleP", "imageView"]
@@ -269,6 +271,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "label"]
 - !private ["s23CustomStringConvertibleP", "layer"]
 - !private ["s23CustomStringConvertibleP", "leadingAnchor"]
+- !private ["s23CustomStringConvertibleP", "mainColour"]
 - !private ["s23CustomStringConvertibleP", "nextButton"]
 - !private ["s23CustomStringConvertibleP", "numberOfPages"]
 - !private ["s23CustomStringConvertibleP", "pageControl"]
@@ -294,11 +297,11 @@ depends-member:
 - !private ["Se", "blue"]
 - !private ["Se", "bottomAnchor"]
 - !private ["Se", "clear"]
-- !private ["Se", "green"]
 - !private ["Se", "heightAnchor"]
 - !private ["Se", "init"]
 - !private ["Se", "init"]
 - !private ["Se", "leadingAnchor"]
+- !private ["Se", "mainColour"]
 - !private ["Se", "red"]
 - !private ["Se", "safeAreaLayoutGuide"]
 - !private ["Se", "topAnchor"]
@@ -308,11 +311,11 @@ depends-member:
 - !private ["SE", "blue"]
 - !private ["SE", "bottomAnchor"]
 - !private ["SE", "clear"]
-- !private ["SE", "green"]
 - !private ["SE", "heightAnchor"]
 - !private ["SE", "init"]
 - !private ["SE", "init"]
 - !private ["SE", "leadingAnchor"]
+- !private ["SE", "mainColour"]
 - !private ["SE", "red"]
 - !private ["SE", "safeAreaLayoutGuide"]
 - !private ["SE", "topAnchor"]
@@ -321,7 +324,7 @@ depends-member:
 - !private ["SQ", "NSLayoutConstraint"]
 - !private ["SQ", "NSMutableAttributedString"]
 - ["SQ", "UIButton"]
-- !private ["SQ", "UIColor"]
+- ["SQ", "UIColor"]
 - !private ["SQ", "UIFont"]
 - !private ["SQ", "UIImage"]
 - ["SQ", "UIImageView"]
@@ -355,7 +358,6 @@ depends-member:
 - !private ["SQ", "font"]
 - !private ["SQ", "foregroundColor"]
 - !private ["SQ", "gray"]
-- !private ["SQ", "green"]
 - !private ["SQ", "heightAnchor"]
 - !private ["SQ", "horizontal"]
 - !private ["SQ", "image"]
@@ -368,6 +370,7 @@ depends-member:
 - !private ["SQ", "label"]
 - !private ["SQ", "layer"]
 - !private ["SQ", "leadingAnchor"]
+- !private ["SQ", "mainColour"]
 - !private ["SQ", "nextButton"]
 - !private ["SQ", "normal"]
 - !private ["SQ", "numberOfPages"]
@@ -399,9 +402,9 @@ depends-member:
 - !private ["s23ExpressibleByNilLiteralP", "blue"]
 - !private ["s23ExpressibleByNilLiteralP", "bottomAnchor"]
 - !private ["s23ExpressibleByNilLiteralP", "clear"]
-- !private ["s23ExpressibleByNilLiteralP", "green"]
 - !private ["s23ExpressibleByNilLiteralP", "heightAnchor"]
 - !private ["s23ExpressibleByNilLiteralP", "leadingAnchor"]
+- !private ["s23ExpressibleByNilLiteralP", "mainColour"]
 - !private ["s23ExpressibleByNilLiteralP", "red"]
 - !private ["s23ExpressibleByNilLiteralP", "safeAreaLayoutGuide"]
 - !private ["s23ExpressibleByNilLiteralP", "topAnchor"]
@@ -414,7 +417,7 @@ depends-member:
 - !private ["SH", "NSLayoutConstraint"]
 - !private ["SH", "NSMutableAttributedString"]
 - ["SH", "UIButton"]
-- !private ["SH", "UIColor"]
+- ["SH", "UIColor"]
 - !private ["SH", "UIFont"]
 - !private ["SH", "UIImage"]
 - ["SH", "UIImageView"]
@@ -448,7 +451,6 @@ depends-member:
 - !private ["SH", "font"]
 - !private ["SH", "foregroundColor"]
 - !private ["SH", "gray"]
-- !private ["SH", "green"]
 - !private ["SH", "heightAnchor"]
 - !private ["SH", "horizontal"]
 - !private ["SH", "image"]
@@ -461,6 +463,7 @@ depends-member:
 - !private ["SH", "label"]
 - !private ["SH", "layer"]
 - !private ["SH", "leadingAnchor"]
+- !private ["SH", "mainColour"]
 - !private ["SH", "nextButton"]
 - !private ["SH", "numberOfPages"]
 - !private ["SH", "pageControl"]
@@ -497,7 +500,7 @@ depends-member:
 - !private ["So8NSCodingP", "NSLayoutConstraint"]
 - !private ["So8NSCodingP", "NSMutableAttributedString"]
 - ["So8NSCodingP", "UIButton"]
-- !private ["So8NSCodingP", "UIColor"]
+- ["So8NSCodingP", "UIColor"]
 - !private ["So8NSCodingP", "UIFont"]
 - !private ["So8NSCodingP", "UIImage"]
 - ["So8NSCodingP", "UIImageView"]
@@ -525,7 +528,6 @@ depends-member:
 - !private ["So8NSCodingP", "distribution"]
 - !private ["So8NSCodingP", "font"]
 - !private ["So8NSCodingP", "gray"]
-- !private ["So8NSCodingP", "green"]
 - !private ["So8NSCodingP", "heightAnchor"]
 - !private ["So8NSCodingP", "image"]
 - !private ["So8NSCodingP", "imageView"]
@@ -536,6 +538,7 @@ depends-member:
 - !private ["So8NSCodingP", "label"]
 - !private ["So8NSCodingP", "layer"]
 - !private ["So8NSCodingP", "leadingAnchor"]
+- !private ["So8NSCodingP", "mainColour"]
 - !private ["So8NSCodingP", "nextButton"]
 - !private ["So8NSCodingP", "numberOfPages"]
 - !private ["So8NSCodingP", "pageControl"]
@@ -557,14 +560,15 @@ depends-member:
 - !private ["So8NSCodingP", "view"]
 - !private ["So8NSCodingP", "viewDidLoad"]
 - !private ["So9NSCopyingP", "Key"]
+- ["So9NSCopyingP", "UIColor"]
 - !private ["So9NSCopyingP", "append"]
 - !private ["So9NSCopyingP", "black"]
 - !private ["So9NSCopyingP", "blue"]
 - !private ["So9NSCopyingP", "boldSystemFont"]
 - !private ["So9NSCopyingP", "clear"]
 - !private ["So9NSCopyingP", "gray"]
-- !private ["So9NSCopyingP", "green"]
-- !private ["So9NSCopyingP", "init"]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "mainColour"]
 - !private ["So9NSCopyingP", "red"]
 - !private ["So9NSCopyingP", "systemFont"]
 - !private ["So26NSExtensionRequestHandlingP", "NSLayoutConstraint"]
@@ -592,22 +596,24 @@ depends-member:
 - !private ["So26NSExtensionRequestHandlingP", "view"]
 - !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
 - !private ["So21NSItemProviderReadingP", "Key"]
+- ["So21NSItemProviderReadingP", "UIColor"]
 - !private ["So21NSItemProviderReadingP", "append"]
 - !private ["So21NSItemProviderReadingP", "black"]
 - !private ["So21NSItemProviderReadingP", "blue"]
 - !private ["So21NSItemProviderReadingP", "clear"]
 - !private ["So21NSItemProviderReadingP", "gray"]
-- !private ["So21NSItemProviderReadingP", "green"]
-- !private ["So21NSItemProviderReadingP", "init"]
+- ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "mainColour"]
 - !private ["So21NSItemProviderReadingP", "red"]
 - !private ["So21NSItemProviderWritingP", "Key"]
+- ["So21NSItemProviderWritingP", "UIColor"]
 - !private ["So21NSItemProviderWritingP", "append"]
 - !private ["So21NSItemProviderWritingP", "black"]
 - !private ["So21NSItemProviderWritingP", "blue"]
 - !private ["So21NSItemProviderWritingP", "clear"]
 - !private ["So21NSItemProviderWritingP", "gray"]
-- !private ["So21NSItemProviderWritingP", "green"]
-- !private ["So21NSItemProviderWritingP", "init"]
+- ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "mainColour"]
 - !private ["So21NSItemProviderWritingP", "red"]
 - !private ["So14NSLayoutAnchorC", "constraint"]
 - !private ["So18NSLayoutConstraintC", "activate"]
@@ -625,7 +631,7 @@ depends-member:
 - !private ["So8NSObjectC", "NSLayoutConstraint"]
 - !private ["So8NSObjectC", "NSMutableAttributedString"]
 - ["So8NSObjectC", "UIButton"]
-- !private ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UIColor"]
 - !private ["So8NSObjectC", "UIFont"]
 - !private ["So8NSObjectC", "UIImage"]
 - ["So8NSObjectC", "UIImageView"]
@@ -655,7 +661,6 @@ depends-member:
 - !private ["So8NSObjectC", "distribution"]
 - !private ["So8NSObjectC", "font"]
 - !private ["So8NSObjectC", "gray"]
-- !private ["So8NSObjectC", "green"]
 - !private ["So8NSObjectC", "heightAnchor"]
 - !private ["So8NSObjectC", "image"]
 - ["So8NSObjectC", "imageView"]
@@ -667,6 +672,7 @@ depends-member:
 - ["So8NSObjectC", "label"]
 - !private ["So8NSObjectC", "layer"]
 - !private ["So8NSObjectC", "leadingAnchor"]
+- ["So8NSObjectC", "mainColour"]
 - ["So8NSObjectC", "nextButton"]
 - !private ["So8NSObjectC", "numberOfPages"]
 - ["So8NSObjectC", "pageControl"]
@@ -692,7 +698,7 @@ depends-member:
 - !private ["So8NSObjectP", "NSLayoutConstraint"]
 - !private ["So8NSObjectP", "NSMutableAttributedString"]
 - ["So8NSObjectP", "UIButton"]
-- !private ["So8NSObjectP", "UIColor"]
+- ["So8NSObjectP", "UIColor"]
 - !private ["So8NSObjectP", "UIFont"]
 - !private ["So8NSObjectP", "UIImage"]
 - ["So8NSObjectP", "UIImageView"]
@@ -723,7 +729,6 @@ depends-member:
 - !private ["So8NSObjectP", "distribution"]
 - !private ["So8NSObjectP", "font"]
 - !private ["So8NSObjectP", "gray"]
-- !private ["So8NSObjectP", "green"]
 - !private ["So8NSObjectP", "heightAnchor"]
 - !private ["So8NSObjectP", "image"]
 - !private ["So8NSObjectP", "imageView"]
@@ -735,6 +740,7 @@ depends-member:
 - !private ["So8NSObjectP", "label"]
 - !private ["So8NSObjectP", "layer"]
 - !private ["So8NSObjectP", "leadingAnchor"]
+- !private ["So8NSObjectP", "mainColour"]
 - !private ["So8NSObjectP", "nextButton"]
 - !private ["So8NSObjectP", "numberOfPages"]
 - !private ["So8NSObjectP", "pageControl"]
@@ -757,14 +763,15 @@ depends-member:
 - !private ["So8NSObjectP", "view"]
 - !private ["So8NSObjectP", "viewDidLoad"]
 - !private ["So14NSSecureCodingP", "Key"]
+- ["So14NSSecureCodingP", "UIColor"]
 - !private ["So14NSSecureCodingP", "append"]
 - !private ["So14NSSecureCodingP", "black"]
 - !private ["So14NSSecureCodingP", "blue"]
 - !private ["So14NSSecureCodingP", "clear"]
 - !private ["So14NSSecureCodingP", "cornerRadius"]
 - !private ["So14NSSecureCodingP", "gray"]
-- !private ["So14NSSecureCodingP", "green"]
-- !private ["So14NSSecureCodingP", "init"]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "mainColour"]
 - !private ["So14NSSecureCodingP", "red"]
 - !private ["So15NSTextAlignmentV", "center"]
 - !private ["s9OptionSetP", "normal"]
@@ -772,9 +779,9 @@ depends-member:
 - !private ["Sq", "blue"]
 - !private ["Sq", "bottomAnchor"]
 - !private ["Sq", "clear"]
-- !private ["Sq", "green"]
 - !private ["Sq", "heightAnchor"]
 - !private ["Sq", "leadingAnchor"]
+- !private ["Sq", "mainColour"]
 - !private ["Sq", "red"]
 - !private ["Sq", "safeAreaLayoutGuide"]
 - !private ["Sq", "topAnchor"]
@@ -936,11 +943,13 @@ depends-member:
 - !private ["So8UIButtonC", "setTitleColor"]
 - !private ["So8UIButtonC", "titleLabel"]
 - !private ["So8UIButtonC", "translatesAutoresizingMaskIntoConstraints"]
+- ["So7UIColorC", "UIColor"]
 - !private ["So7UIColorC", "black"]
 - !private ["So7UIColorC", "blue"]
 - !private ["So7UIColorC", "clear"]
 - !private ["So7UIColorC", "gray"]
-- !private ["So7UIColorC", "green"]
+- ["So7UIColorC", "init"]
+- ["So7UIColorC", "mainColour"]
 - !private ["So7UIColorC", "red"]
 - !private ["So18UIContentContainerP", "NSLayoutConstraint"]
 - !private ["So18UIContentContainerP", "NSMutableAttributedString"]
@@ -1713,11 +1722,13 @@ depends-member:
 - !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
 - !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s26_ExpressibleByColorLiteralP", "UIColor"]
 - !private ["s26_ExpressibleByColorLiteralP", "black"]
 - !private ["s26_ExpressibleByColorLiteralP", "blue"]
 - !private ["s26_ExpressibleByColorLiteralP", "clear"]
 - !private ["s26_ExpressibleByColorLiteralP", "gray"]
-- !private ["s26_ExpressibleByColorLiteralP", "green"]
+- ["s26_ExpressibleByColorLiteralP", "init"]
+- !private ["s26_ExpressibleByColorLiteralP", "mainColour"]
 - !private ["s26_ExpressibleByColorLiteralP", "red"]
 - !private ["s26_ExpressibleByImageLiteralP", "init"]
 - !private ["s33_ExpressibleByStringInterpolationP", "init"]
@@ -1728,7 +1739,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "NSLayoutConstraint"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "NSMutableAttributedString"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "UIButton"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIFont"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "UIImage"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "UIImageView"]
@@ -1759,7 +1770,6 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "distribution"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "font"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "gray"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "green"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "heightAnchor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "image"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "imageView"]
@@ -1771,6 +1781,7 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "label"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "layer"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "leadingAnchor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mainColour"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "nextButton"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "numberOfPages"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "pageControl"]
@@ -1798,11 +1809,11 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "clear"]
 - !private ["s21_ObjectiveCBridgeableP", "font"]
 - !private ["s21_ObjectiveCBridgeableP", "foregroundColor"]
-- !private ["s21_ObjectiveCBridgeableP", "green"]
 - !private ["s21_ObjectiveCBridgeableP", "heightAnchor"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "leadingAnchor"]
+- !private ["s21_ObjectiveCBridgeableP", "mainColour"]
 - !private ["s21_ObjectiveCBridgeableP", "red"]
 - !private ["s21_ObjectiveCBridgeableP", "safeAreaLayoutGuide"]
 - !private ["s21_ObjectiveCBridgeableP", "topAnchor"]
@@ -1841,10 +1852,10 @@ depends-nominal:
 - !private "s10MirrorPathP"
 - !private "So18NSAttributedStringC"
 - "So8NSCodingP"
-- !private "So9NSCopyingP"
+- "So9NSCopyingP"
 - "So26NSExtensionRequestHandlingP"
-- !private "So21NSItemProviderReadingP"
-- !private "So21NSItemProviderWritingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
 - !private "So14NSLayoutAnchorC"
 - !private "So18NSLayoutConstraintC"
 - !private "So17NSLayoutDimensionC"
@@ -1854,7 +1865,7 @@ depends-nominal:
 - !private "So16NSMutableCopyingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
-- !private "So14NSSecureCodingP"
+- "So14NSSecureCodingP"
 - !private "So15NSTextAlignmentV"
 - !private "s9OptionSetP"
 - !private "Sq"
@@ -1872,7 +1883,7 @@ depends-nominal:
 - "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
 - "So8UIButtonC"
-- !private "So7UIColorC"
+- "So7UIColorC"
 - "So18UIContentContainerP"
 - "So30UIContentSizeCategoryAdjustingP"
 - "So9UIControlC"
@@ -1913,7 +1924,7 @@ depends-nominal:
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
 - !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
-- !private "s26_ExpressibleByColorLiteralP"
+- "s26_ExpressibleByColorLiteralP"
 - !private "s26_ExpressibleByImageLiteralP"
 - !private "s33_ExpressibleByStringInterpolationP"
 - !private "s35_HasCustomAnyHashableRepresentationP"
@@ -1949,4 +1960,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.0.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "9723e62cdd82782ff2a324efc2c93fc1"
+interface-hash: "c827af02b51dcb3bc1ae3d39d37b2c81"
