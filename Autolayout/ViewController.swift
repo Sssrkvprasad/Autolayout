@@ -13,10 +13,14 @@ class ViewController: UIViewController {
     let topCantainerView = UIView()
     let imageView = UIImageView()
     let label = UITextView()
+    private let nextButton = UIButton(type:.system)
+    private let prevButton = UIButton(type:.system)
+    private let pageControl = UIPageControl()
+
     override func viewDidLoad() {
         super.viewDidLoad()
         setupViews()
-        
+        placeBottonControls()
     }
 
  func  setupViews(){
@@ -41,30 +45,18 @@ class ViewController: UIViewController {
     
     
     
-//    plaing desciptionext
+//    plaing desciption text
     label.text = "Lets do Something Dude"
     label.textAlignment = .center
     label.translatesAutoresizingMaskIntoConstraints = false
     label.isScrollEnabled = false
     label.isEditable = false
-//    let attributdtext = NSAttributedString(string: "/Users/sriramprasad/Dev/rough/Autolayout/Autolayout/ViewController.swift", attributes: [NSAttributedString.Key.font:UIFont.boldSystemFont(ofSize: 18)])
-    
-//    attributdtext
-    
-//    let attributedText = NSMutableAttributedString(string: "Join us today in our fun and games!", attributes: [NSAttributedString.Key.font: UIFont.boldSystemFont(ofSize: 18)])
-//
-//    attributedText.append(NSAttributedString(string: "\n\n\nAre you ready for loads and loads of fun? Don't wait any longer! We hope to see you in our stores soon.", attributes: [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 13), NSAttributedString.Key.foregroundColor: UIColor.gray]))
-//
-//    label.attributedText = attributedText
-    
+
     let yourAttributes: [NSAttributedString.Key: Any] = [.foregroundColor: UIColor.black, .font: UIFont.boldSystemFont(ofSize: 25)]
     let yourOtherAttributes: [NSAttributedString.Key: Any] = [.foregroundColor: UIColor.gray, .font: UIFont.systemFont(ofSize: 14)]
-
     let partOne = NSMutableAttributedString(string: "This is an example ", attributes: yourAttributes)
     let partTwo = NSMutableAttributedString(string: "\n\n\nfor the combination of Attributed String!", attributes: yourOtherAttributes)
-    
     partOne.append(partTwo)
-
     label.attributedText = partOne
     label.textAlignment = .center
     view.addSubview(label)
@@ -76,7 +68,55 @@ class ViewController: UIViewController {
 
     
     
-    
+    fileprivate func placeBottonControls(){
+        
+        prevButton.backgroundColor = .clear
+        view.addSubview(prevButton)
+        prevButton.translatesAutoresizingMaskIntoConstraints = false
+        prevButton.setTitle("Prev", for: .normal)
+        prevButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 14)
+        prevButton.setTitleColor(.red, for: .normal)
+       
+        
+        
+        nextButton.backgroundColor = .clear
+        view.addSubview(nextButton)
+        nextButton.translatesAutoresizingMaskIntoConstraints = false
+        nextButton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 14)
+        nextButton.setTitle("Next", for: .normal)
+        
+        
+        
+        let greenView = UIView()
+            greenView.backgroundColor = .mainColour
+        
+        pageControl.currentPage  = 0
+        pageControl.currentPageIndicatorTintColor = .blue
+        pageControl.numberOfPages = 4
+        pageControl.pageIndicatorTintColor = .red
+      
+        
+        let bottomControlsStackView = UIStackView(arrangedSubviews: [prevButton,pageControl,nextButton])
+            bottomControlsStackView.translatesAutoresizingMaskIntoConstraints = false
+            bottomControlsStackView.axis = .horizontal
+            bottomControlsStackView.distribution = .fillEqually
+        view.addSubview(bottomControlsStackView)
+        
+        
+        
+        NSLayoutConstraint.activate([
+
+            bottomControlsStackView.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor),
+            bottomControlsStackView.leadingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.leadingAnchor),
+            bottomControlsStackView.trailingAnchor.constraint(equalTo: view.safeAreaLayoutGuide.trailingAnchor),
+            bottomControlsStackView.heightAnchor.constraint(equalToConstant: 50)
+            
+            
+            ])
+    }
+  
     }
 
-
+extension UIColor {
+ static  let mainColour = UIColor(displayP3Red: 232/255, green: 68/255, blue: 133/255, alpha: 1)
+}

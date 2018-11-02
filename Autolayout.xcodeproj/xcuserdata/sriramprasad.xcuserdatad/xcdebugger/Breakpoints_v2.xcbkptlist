@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Autolayout/ViewController.swift"
-            timestampString = "562834466.163379"
+            timestampString = "562846710.800192"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
             landmarkName = "setupViews()"
             landmarkType = "7">
          </BreakpointContent>
